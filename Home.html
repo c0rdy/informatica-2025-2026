@@ -10,37 +10,23 @@
             background-color: #0B132B;
         }
 
-        header{
-            background-color: #1C2541;
-            position: absolute;
-            top: 0;
-            width: 100%;
-        }
-
-        #link{
-            height: 50px;
-            width: 20%;
-            float: left;
-        }
-
-        a{
-            position: relative;
-            top: 30%;
-            left: 25%;
-            color: #C9C9C9;
-        }
-
         h1{
             text-align: center;
-            position: relative;
-            top: 30px;
             color: #F4F3EE;
+        }
+        
+        #foto{
+            height: 300px;
+            width: 480px;
+            margin: 10px;
         }
 
         footer{
             background-color: rgba(174, 171, 171, 0.388);
-            position: absolute;
-            bottom: 0;
+            color: #b5b4b4;
+            position: relative;
+            top: 15px;
+            height: 35px;
             width: 100%;
 			text-align: center;
         }
@@ -48,15 +34,16 @@
 
 </head>
 <body>
-    <header>
-        <div id="link"><a href="Home.html">Home</a></div>
-        <div id="link"><a href="Interstellar.html">Interstellar</a></div>
-        <div id="link"><a href="The_Martian.html">The Martian</a></div>
-        <div id="link"><a href="The_Expanse.html">The Expanse</a></div>
-        <div id="link"><a href="Battlestar_Galattica.html">Battlestar Galattica</a></div>
-    </header>
     
     <h1>Benvenuto su myMovies!</h1>
+    <h3 style="text-align: center; color: #F4F3EE;">Scegli un titolo tra quelli proposti:</h3>
+
+    <div id="titoli" style="width: 100%; text-align: center;">
+        <a href="Interstellar.html"> <img src="InterstellarCopertina.jpg" id="foto"> </a>
+        <a href="The_Martian.html"> <img src="TheMartianCopertina.jpeg" id="foto"> </a>
+        <a href="The_Expanse.html"> <img src="TheExpanseCopertina.jpg" id="foto"> </a>
+        <a href="Battlestar_Galattica.html"> <img src="BattlestarGalatticaCopertina.jpeg" id="foto"> </a>
+    </div>
 
     <footer>
         <p>Copyright by Cordy&Leo Productions 2025</p>
