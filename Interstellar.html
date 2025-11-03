@@ -52,10 +52,23 @@
             color: #b5b4b4;
             position: relative;
             top: 15px;
-            height: 35px;
+            height: 125px;
             width: 100%;
 			text-align: center;
         }
+
+        #contatti{
+            height: 30px;
+            width: 33%;
+            float: left;
+        }
+        #assistenza{
+            height: 30px;
+            width: 33%;
+            float: left;
+            color: #b5b4b4;
+        }
+
     </style>
 
 </head>
@@ -71,9 +84,13 @@
     <h1>Interstellar</h1>
 
     <div id="foto">
-        <img src="Interstellar1.jpeg" style="margin-top: 20px;"> <br>
-        <img src="Interstellar2.jpeg" id="img2">
-        <img src="Interstellar3.jpeg" id="img3">
+        <img src="Interstellar4.jpg" style="height: 35%; width: 75%; margin-bottom: 10px; margin-top: 15px;"> <br>
+        <img src="Interstellar2.jpg" style="float: left; width: 45%; height: 53%; margin-left: 20px;">
+
+        <video controls width="640" height="360" style="float: right; width: 45%; height: 53%; margin-right: 20px;">
+            <source src="TrailerInterstellar.mp4" type="video/mp4">
+        </video>
+
     </div>
 
     <div style="width: 100%; text-align: center;">
@@ -106,7 +123,23 @@
     </div>
 
     <footer>
-        <p style="position: relative; top: 7px;">Copyright by Cordy&Leo Productions 2025</p>
+        <p>Copyright by Cordy&Leo Productions 2025</p>
+
+        <div id="social" style="float: left;">
+            <p>Seguici sui nostri canali social: <br>
+                <div id="contatti"> Instagram: @_myMovies_it_ </div>
+                <div id="contatti"> Facebook: myMovies_it </div>
+                <div id="contatti"> X:<br> myMovies_it </div>
+            </p>
+        </div>
+
+        <div style="float: right;">
+            <p>Assistenza:</p>
+            <a href="Centro_Assistenza.html" id="assistenza">Assistenza</a>
+            <a href="Centro_Assistenza.html" id="assistenza">Lavora con noi</a>
+            <a href="Centro_Assistenza.html" id="assistenza">Informativa sulla privacy</a>
+        </div>
+        
     </footer>
 </body>
 </html>
